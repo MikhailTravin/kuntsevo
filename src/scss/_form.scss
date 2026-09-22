@@ -1,0 +1,67 @@
+
+/* Чекбокс
+.checkbox {
+    position: relative;
+    // .checkbox__input
+
+    &__input {
+        position: absolute;
+        width: 0;
+        height: 0;
+        opacity: 0;
+        &:checked + .checkbox__label .checkbox__icon svg {
+            opacity: 1;
+        }
+        &:checked + .checkbox__label .checkbox__icon {
+            background-color: var(--326045);
+        }
+        &:hover + .checkbox__label .checkbox__text {
+            color: var(--edb737-2-paints);
+        }
+        &:hover + .checkbox__label .checkbox__icon {
+            background-color: var(--edb737-2-paints);
+        }
+    }
+
+    // .checkbox__label
+
+    &__label {
+        cursor: pointer;
+        display: flex;
+        gap: 15px;
+    }
+
+    // .checkbox__icon
+
+    &__icon {
+        border-radius: 4px;
+        background-color: #fff;
+        width: 20px;
+        height: 20px;
+        flex: 0 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.3s;
+        @media (max-width: 768px) {
+            width: 16px;
+            height: 16px;
+            flex: 0 0 16px;
+        }
+        svg {
+            fill: var(--ffffff);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+    }
+
+    // .checkbox__text
+
+    &__text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 143%;
+        color: var(--ffffff);
+    }
+}
+*/

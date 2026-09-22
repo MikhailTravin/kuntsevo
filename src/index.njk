@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная</title>
+    {% include 'blocks/head.njk' %}
+</head>
+
+<body class="preload mp">
+    <div class="main-wrapper-outer">
+        {% include 'blocks/header.njk' %}
+        <main class="main">
+
+            <div class="block-contacts block-main-contacts">
+                <div class="block-contacts__map">
+                    <a href="https://yandex.by/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a>
+                    <a href="https://yandex.by/maps/213/moscow/house/molodogvardeyskaya_ulitsa_65s3/Z04YdQ9kS0wPQFtvfXtyc3lqYQ==/?ll=37.384298%2C55.732596&utm_medium=mapframe&utm_source=maps&z=16"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Молодогвардейская улица, 65с3
+                        на
+                        карте Москвы — Яндекс Карты</a>
+                    <iframe loading="lazy"
+                        src="https://yandex.by/map-widget/v1/?ll=37.384298%2C55.732596&mode=whatshere&whatshere%5Bpoint%5D=37.384298%2C55.732595&whatshere%5Bzoom%5D=17&z=16"
+                        frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                </div>
+                <div class="container">
+                    <div class="block-contacts__body">
+                        <div class="block-contacts__top">
+                            <div class="block-contacts__title">
+                                Контакты
+                            </div>
+                            <div class="contacts">
+                                <div class="contacts__column">
+                                    <div class="contacts__icon">
+                                        <svg aria-hidden="true" width="14" height="16">
+                                            <use xlink:href="img/sprite.svg#map1"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="contacts__item">
+                                        <div class="contacts__title">
+                                            Москва
+                                        </div>
+                                        <p>
+                                            Молодогвардейская улица, 65с3
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="tel:74996238171" class="contacts__column">
+                                    <div class="contacts__icon">
+                                        <svg aria-hidden="true" width="16" height="16">
+                                            <use xlink:href="img/sprite.svg#phone1"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="contacts__item">
+                                        <div class="contacts__title">
+                                            +7 (499) 623-81-71
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="mailto:zakaz@tlc-kuntsevo2.ru" class="contacts__column">
+                                    <div class="contacts__icon">
+                                        <svg aria-hidden="true" width="16" height="13">
+                                            <use xlink:href="img/sprite.svg#mail1"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="contacts__item">
+                                        <div class="contacts__title">
+                                            zakaz@tlc-kuntsevo2.ru
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="contacts__column">
+                                    <div class="contacts__icon">
+                                        <svg aria-hidden="true" width="15" height="16">
+                                            <use xlink:href="img/sprite.svg#calendar"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="contacts__item">
+                                        <p>
+                                            Работаем круглосуточно и
+                                            без выходных
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-contacts__bottom">
+                            <a target="_blank" href="https://yandex.by/maps/-/CXEbaJNQ" class="btn btn-transparent">
+                                Построить маршрут
+                            </a>
+                            <a href="./" data-popup="#submit-request" class="btn">
+                                Оставить заявку
+                            </a>
+                            <div class="socials">
+                                <a href="./">
+                                    <svg aria-hidden="true" width="24" height="24">
+                                        <use xlink:href="img/sprite.svg#max"></use>
+                                    </svg>
+                                </a>
+                                <a href="./">
+                                    <svg aria-hidden="true" width="24" height="19">
+                                        <use xlink:href="img/sprite.svg#tg"></use>
+                                    </svg>
+                                </a>
+                                <a href="./">
+                                    <svg aria-hidden="true" width="24" height="24">
+                                        <use xlink:href="img/sprite.svg#whatsapp"></use>
+                                    </svg>
+                                </a>
+                                <a href="./">
+                                    <svg aria-hidden="true" width="28" height="23">
+                                        <use xlink:href="img/sprite.svg#chat"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        {% include 'blocks/footer.njk' %}
+    </div>
+    {% include 'blocks/popups.njk' %}
+    {% include 'blocks/scripts.njk' %}
+</body>
+
+</html>
