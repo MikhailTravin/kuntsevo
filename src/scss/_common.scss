@@ -52,11 +52,14 @@ a {
   font-size: 50px;
   line-height: 120%;
   text-transform: uppercase;
+  margin-bottom: 28px;
   @media (max-width: 992px) {
-    font-size: 36px;
+    font-size: 30px;
+    margin-bottom: 23px;
   }
   @media (max-width: 767px) {
-    font-size: 26px;
+    font-size: 22px;
+    margin-bottom: 15px;
   }
 }
 
@@ -220,6 +223,84 @@ a {
     @media (any-hover: hover) {
       &:hover {
         opacity: 0.7;
+      }
+    }
+  }
+}
+
+.card-section {
+  position: relative;
+  border-radius: 10px;
+  background: var(--fon-2);
+  p {
+    padding: 14px 60px 15px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    position: relative;
+    z-index: 15;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    overflow-wrap: break-word;
+    @media (max-width: 992px) {
+      font-size: 14px;
+    }
+    @media (max-width: 550px) {
+      font-size: 13px;
+      padding: 10px 40px 11px 15px;
+    }
+  }
+  // .card-section__bg1
+
+  &__bg1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 63px;
+    height: 61px;
+    z-index: 5;
+    @media (max-width: 992px) {
+      width: 50px;
+      height: 50px;
+    }
+    @media (max-width: 550px) {
+      width: 42px;
+      height: 42px;
+    }
+  }
+
+  // .card-section__icon
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px 10px 5px 5px;
+    background: var(--kransnyy);
+    z-index: 10;
+    @media (max-width: 992px) {
+      width: 40px;
+      height: 40px;
+    }
+    @media (max-width: 550px) {
+      width: 34px;
+      height: 34px;
+    }
+    img {
+      max-width: 30px;
+      width: auto;
+      height: auto;
+      @media (max-width: 992px) {
+        max-width: 26px;
+      }
+      @media (max-width: 550px) {
+        max-width: 20px;
       }
     }
   }
