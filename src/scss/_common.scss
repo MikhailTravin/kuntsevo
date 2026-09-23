@@ -239,14 +239,14 @@ a {
     line-height: 140%;
     position: relative;
     z-index: 15;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    overflow-wrap: break-word;
     @media (max-width: 992px) {
       font-size: 14px;
     }
     @media (max-width: 550px) {
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      overflow-wrap: break-word;
       font-size: 13px;
       padding: 10px 40px 11px 15px;
     }
