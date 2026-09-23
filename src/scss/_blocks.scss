@@ -628,10 +628,12 @@
             gap: 15px;
             a {
                 flex: 0 0 40px;
+                width: 40px;
                 height: 40px;
                 background-color: rgba(255, 255, 255, 0.05);
                 @media (max-width: 992px) {
                     flex: 0 0 30px;
+                    width: 30px;
                     height: 30px;
                 }
                 svg {

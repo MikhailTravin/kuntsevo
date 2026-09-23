@@ -1575,6 +1575,7 @@ a {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 40px;
           flex: 0 0 40px;
+  width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.05);
 }
@@ -1583,6 +1584,7 @@ a {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 30px;
             flex: 0 0 30px;
+    width: 30px;
     height: 30px;
   }
 }
