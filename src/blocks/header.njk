@@ -1,62 +1,197 @@
-<!--
 <header class="header">
-    <div class="container">
-        <div class="header__content">
-            <a href="./" class="header__logo">
-                <img src="img/icons/logo.svg" alt="">
-            </a>
-            <div class="header__menu">
-                <a href="tel:89670762496" class="header__phone mob">8 967 076-24-96</a>
-                <ul>
-                    <li>
-                        <a data-goto=".block-benefits1" data-goto-header href="./">Услуги</a>
-                    </li>
-                    <li>
-                        <a data-goto=".block-delivery" data-goto-header href="./">Виды перевозок</a>
-                    </li>
-                    <li>
-                        <a data-goto=".block-steps" data-goto-header href="./">Как мы работаем</a>
-                    </li>
-                    <li>
-                        <a data-goto=".block-works" data-goto-header href="./">
-                            <div class="header__menu-icon">
-                                <svg aria-hidden="true" width="9" height="11">
-                                    <use xlink:href="img/sprite.svg#map2"></use>
-                                </svg>
-                            </div>
-                            Наш офис в Китае
-                        </a>
-                    </li>
-                    <li>
-                        <a data-goto=".block-teams" data-goto-header href="./">Команда</a>
-                    </li>
-                    <li>
-                        <a data-goto=".block-reviews" data-goto-header href="./">Отзывы</a>
-                    </li>
-                    <li>
-                        <a data-goto=".block-questions" data-goto-header href="./">FAQ</a>
-                    </li>
-                    <li>
-                        <a data-goto=".footer" data-goto-header href="./">Контакты</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="header__right">
-                <div class="header__contacts">
-                    <a href="tel:89670762496" class="header__phone desc">8 967 076-24-96</a>
-                    <a href="./" data-popup="#call" class="header__call">
-                        <div class="header__icon">
-                            <svg aria-hidden="true" width="12" height="12">
-                                <use xlink:href="img/sprite.svg#phone"></use>
-                            </svg>
-                        </div>
-                        <span>Заказать звонок</span>
+    <div class="header-top">
+        <div class="container">
+            <div class="header-top__content">
+                <div class="header-top__left">
+                    <a href="./" class="header-top__logo">
+                        <img src="img/icons/logo1.svg" alt="" class="desc">
+                        <img src="img/icons/logo1-mob.svg" alt="" class="mob">
                     </a>
+                    <div class="header-top__text">
+                        <p>
+                            Контейнерный
+                            терминал ЖД станции
+                            «Кунцево 2» Москва
+                        </p>
+                        <a href="tel:74996238171" class="header-top__contact">+7 (499) 623-81-71</a>
+                    </div>
                 </div>
-                <button type="button" class="icon-menu">
-                    <span></span>
-                </button>
+                <div class="header-top__center">
+                    <div class="header-top__contacts">
+                        <a href="tel:74996238171" class="header-top__contact">+7 (499) 623-81-71</a>
+                        <a href="mailto:zakaz@tlc-kuntsevo2.ru" class="header-top__contact">zakaz@tlc-kuntsevo2.ru</a>
+                    </div>
+                    <p>
+                        Работаем
+                        круглосуточно и
+                        без выходных
+                    </p>
+                </div>
+                <div class="header-top__right">
+                    <div class="socials">
+                        <a href="./">
+                            <svg aria-hidden="true" width="20" height="20">
+                                <use xlink:href="img/sprite.svg#max"></use>
+                            </svg>
+                        </a>
+                        <a href="./">
+                            <svg aria-hidden="true" width="20" height="17">
+                                <use xlink:href="img/sprite.svg#tg"></use>
+                            </svg>
+                        </a>
+                        <a href="./">
+                            <svg aria-hidden="true" width="20" height="20">
+                                <use xlink:href="img/sprite.svg#whatsapp"></use>
+                            </svg>
+                        </a>
+                        <a href="./">
+                            <svg aria-hidden="true" width="24" height="19">
+                                <use xlink:href="img/sprite.svg#chat"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <a href="./" data-popup="#submit-request" class="btn">
+                        Оставить
+                        заявку
+                    </a>
+                    <a href="./" class="header-top__user">
+                        <img src="img/icons/user.svg" alt="">
+                    </a>
+                    <button type="button" class="header-top__burder">
+                        <span class="icon-menu">
+                            <span></span>
+                        </span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-</header>-->
+    <div class="header-bottom">
+        <div class="container">
+            <div class="header-menu">
+                <div class="header-menu__body">
+                    <ul>
+                        <li>
+                            <a href="./" data-goto=".block-services" data-goto-header>Услуги</a>
+                        </li>
+                        <li>
+                            <a href="./" data-goto=".block-customs-post" data-goto-header>Таможенный пост</a>
+                        </li>
+                        <li>
+                            <a href="./" data-goto=".block-order" data-goto-header>Цены</a>
+                        </li>
+                        <li>
+                            <a href="./" data-goto=".block-about" data-goto-header>О нас</a>
+                        </li>
+                        <li>
+                            <a href="./" data-goto=".block-main-contacts" data-goto-header>Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block-contacts">
+                    <div class="block-contacts__map">
+                        <a href="https://yandex.by/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a>
+                        <a href="https://yandex.by/maps/213/moscow/house/molodogvardeyskaya_ulitsa_65s3/Z04YdQ9kS0wPQFtvfXtyc3lqYQ==/?ll=37.384298%2C55.732596&utm_medium=mapframe&utm_source=maps&z=16"
+                            style="color:#eee;font-size:12px;position:absolute;top:14px;">Молодогвардейская улица, 65с3
+                            на
+                            карте Москвы — Яндекс Карты</a>
+                        <iframe loading="lazy"
+                            src="https://yandex.by/map-widget/v1/?ll=37.384298%2C55.732596&mode=whatshere&whatshere%5Bpoint%5D=37.384298%2C55.732595&whatshere%5Bzoom%5D=17&z=16"
+                            frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                    </div>
+                    <div class="block-contacts__body">
+                        <div class="block-contacts__top">
+                            <div class="contacts">
+                                <div class="contacts__column">
+                                    <div class="contacts__icon">
+                                        <svg aria-hidden="true" width="14" height="16">
+                                            <use xlink:href="img/sprite.svg#map1"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="contacts__item">
+                                        <div class="contacts__title">
+                                            Москва
+                                        </div>
+                                        <p>
+                                            Молодогвардейская улица, 65с3
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="tel:74996238171" class="contacts__column">
+                                    <div class="contacts__icon">
+                                        <svg aria-hidden="true" width="16" height="16">
+                                            <use xlink:href="img/sprite.svg#phone1"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="contacts__item">
+                                        <div class="contacts__title">
+                                            +7 (499) 623-81-71
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="mailto:zakaz@tlc-kuntsevo2.ru" class="contacts__column">
+                                    <div class="contacts__icon">
+                                        <svg aria-hidden="true" width="16" height="13">
+                                            <use xlink:href="img/sprite.svg#mail1"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="contacts__item">
+                                        <div class="contacts__title">
+                                            zakaz@tlc-kuntsevo2.ru
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="contacts__column">
+                                    <div class="contacts__icon">
+                                        <svg aria-hidden="true" width="15" height="16">
+                                            <use xlink:href="img/sprite.svg#calendar"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="contacts__item">
+                                        <p>
+                                            Работаем круглосуточно и
+                                            без выходных
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-contacts__bottom">
+                            <a href="./" data-popup="#submit-request" class="btn">
+                                Оставить заявку
+                            </a>
+                            <div class="socials">
+                                <a href="./" class="social-phone">
+                                    <svg aria-hidden="true" width="16" height="16">
+                                        <use xlink:href="img/sprite.svg#phone1"></use>
+                                    </svg>
+                                </a>
+                                <a href="./">
+                                    <svg aria-hidden="true" width="24" height="24">
+                                        <use xlink:href="img/sprite.svg#max"></use>
+                                    </svg>
+                                </a>
+                                <a href="./">
+                                    <svg aria-hidden="true" width="24" height="19">
+                                        <use xlink:href="img/sprite.svg#tg"></use>
+                                    </svg>
+                                </a>
+                                <a href="./">
+                                    <svg aria-hidden="true" width="24" height="24">
+                                        <use xlink:href="img/sprite.svg#whatsapp"></use>
+                                    </svg>
+                                </a>
+                                <a href="./">
+                                    <svg aria-hidden="true" width="28" height="23">
+                                        <use xlink:href="img/sprite.svg#chat"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
