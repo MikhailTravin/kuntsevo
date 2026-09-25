@@ -305,3 +305,43 @@ a {
     }
   }
 }
+
+.button-up {
+  position: fixed;
+  bottom: 75px;
+  right: 173px;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: #b32821;
+  transition: opacity 0.3s;
+  opacity: 0;
+  @media (max-width: 1700px) {
+    right: 20px;
+  }
+  @media (max-width: 550px) {
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  svg {
+    fill: #fff;
+    @media (max-width: 550px) {
+      width: 10px;
+      height: auto;
+    }
+  }
+  &.active {
+    opacity: 1;
+  }
+  @media (any-hover: hover) {
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

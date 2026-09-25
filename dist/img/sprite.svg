@@ -107,6 +107,9 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_70048_1323" result="shape"/>
 </filter>
 </defs>
+<symbol id="arrow1" viewBox="0 0 18 24">
+  <path d="M8.66 0 0 15h17.32zm0 24h1.5V13.5h-3V24z"/>
+</symbol>
 <symbol id="calendar" viewBox="0 0 15 16">
   <path d="M5.357 0H2.143v2.133H0v3.2h15v-3.2h-2.143V0H9.643v2.133H5.357zM15 7.467H0V16h15z"/>
 </symbol>

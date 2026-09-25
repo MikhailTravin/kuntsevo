@@ -981,3 +981,22 @@ document.addEventListener("click", function (e) {
     document.documentElement.classList.remove("menu-open");
   }
 });
+
+//========================================================================================================================================================
+
+const btn = document.querySelector('.button-up');
+
+btn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    btn.classList.add('active');
+  } else {
+    btn.classList.remove('active');
+  }
+});

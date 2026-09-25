@@ -774,6 +774,59 @@ a {
   }
 }
 
+.button-up {
+  position: fixed;
+  bottom: 75px;
+  right: 173px;
+  z-index: 50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: #b32821;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+@media (max-width: 1700px) {
+  .button-up {
+    right: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .button-up {
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+}
+.button-up svg {
+  fill: #fff;
+}
+@media (max-width: 550px) {
+  .button-up svg {
+    width: 10px;
+    height: auto;
+  }
+}
+.button-up.active {
+  opacity: 1;
+}
+@media (any-hover: hover) {
+  .button-up:hover {
+    opacity: 0.7;
+  }
+}
+
 .block-intro {
   position: relative;
   overflow: hidden;
